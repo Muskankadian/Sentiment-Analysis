@@ -16,23 +16,22 @@ This project performs sentiment analysis on text data using machine learning tec
 ## Database Schema
 Here's a brief description of each attribute:
 
--ProductId: A unique identifier for the product being reviewed. This attribute helps distinguish between different products in the dataset.
-
+- **ProductId**: A unique identifier for the product being reviewed. This attribute helps distinguish between different products in the dataset.
 -UserId: A unique identifier for the user who wrote the review. Each user is identified by their UserId.
 
--ProfileName: The profile name or username of the user who wrote the review. This attribute may provide additional context about the reviewer.
+- **ProfileName**: The profile name or username of the user who wrote the review. This attribute may provide additional context about the reviewer.
 
--HelpfulnessNumerator: The number of users who found the review helpful. This can be used as a measure of the review's perceived usefulness.
+- **HelpfulnessNumerator**: The number of users who found the review helpful. This can be used as a measure of the review's perceived usefulness.
 
--HelpfulnessDenominator: The total number of users who indicated whether they found the review helpful or not. This attribute, along with HelpfulnessNumerator, provides a ratio of helpfulness.
+- **HelpfulnessDenominator**: The total number of users who indicated whether they found the review helpful or not. This attribute, along with HelpfulnessNumerator, provides a ratio of helpfulness.
 
--Score: The rating or score given to the product in the review, typically ranging from 1 to 5. This represents the user's overall satisfaction with the product.
+- **Score**: The rating or score given to the product in the review, typically ranging from 1 to 5. This represents the user's overall satisfaction with the product.
 
--Time: The timestamp or date/time when the review was posted. This attribute can be used for temporal analysis or to track review trends over time.
+- **Time**: The timestamp or date/time when the review was posted. This attribute can be used for temporal analysis or to track review trends over time.
 
--Summary: A brief summary or headline of the review. This provides a concise overview of the main points or sentiment expressed in the review.
+- **Summary**: A brief summary or headline of the review. This provides a concise overview of the main points or sentiment expressed in the review.
 
--Text: The full text of the review, providing detailed feedback, opinions, and experiences shared by the reviewer
+- **Text**: The full text of the review, providing detailed feedback, opinions, and experiences shared by the reviewer
 
 ## Setup
 1. **Clone the repository:**
