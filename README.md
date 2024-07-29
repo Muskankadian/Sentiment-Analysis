@@ -13,8 +13,8 @@ This project performs sentiment analysis on text data using machine learning tec
 - Python
 - Libraries: NLTK, Scikit-learn, pandas, numpy, seaborn, matplotlib
 
-##Database Schema
--Here's a brief description of each attribute:
+## Database Schema
+Here's a brief description of each attribute:
 
 -ProductId: A unique identifier for the product being reviewed. This attribute helps distinguish between different products in the dataset.
 
@@ -32,7 +32,7 @@ This project performs sentiment analysis on text data using machine learning tec
 
 -Summary: A brief summary or headline of the review. This provides a concise overview of the main points or sentiment expressed in the review.
 
--Text: The full text of the review, providing detailed feedback, opinions, and experiences shared by the reviewer![image](https://github.com/user-attachments/assets/07a759fa-9100-479c-a07e-e36aeecf24cc)
+-Text: The full text of the review, providing detailed feedback, opinions, and experiences shared by the reviewer
 
 ## Setup
 1. **Clone the repository:**
